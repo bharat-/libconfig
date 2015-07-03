@@ -1,0 +1,37 @@
+{
+		"version":
+		{
+		"Dversion": "5.0.0.0",
+		"Cversion": "5.0.0.0"
+		},
+		"log":
+		{
+			"Dlog": "/var/log/vmware/rhttpproxy/",
+			"Clog": "/var/log/vmware/rhttpproxy/"
+		},
+		"name":
+		{
+			"Dname": "rhttpproxy",
+			"Cname": "rhttpproxy"
+		},
+		"httpPort":
+		{
+			"DhttpPort": "80",
+			"ChttpPort": "80"
+		},
+		"httpsPort":
+		{
+			"DhttpsPort": "443",
+			"ChttpsPort": "443"
+		},
+		"maxConnections":
+		{
+			"DmaxConnections": "2048",
+			"CmaxConnections": "2048"
+		},
+		"requestClientCertificate":
+		{
+			"DrequestClientCertificate": "false",
+			"CrequestClientCertificate": "false"
+		}
+}
